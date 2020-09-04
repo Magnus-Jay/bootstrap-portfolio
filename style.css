@@ -1,0 +1,15 @@
+body {
+    background-color: antiquewhite;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 40px;
+    right: 15px;
+}
+.name {
+    position: fixed;
+    left: 15px;
+    top: 40px;
+
+}
