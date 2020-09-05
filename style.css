@@ -10,18 +10,20 @@ buttons {
  
     
     background-color: white;
-    width: 60%;
+    width: 425px;
     flex-wrap: wrap;
     margin-top: 60px;
     margin-left: 100px;
-    
+    padding: 20px 20px 20px 20;
    
 
 }
 
-.row {
-    margin: 15px 15px 15px 15px;
-}
+
+
+/* .row {
+    padding: 15px 0 15px 0;
+} */
 .column-float {
     float: right;
 }
@@ -29,11 +31,19 @@ buttons {
 #heading {
     color: teal;
     justify-content: space-around;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .btn {
     background-color: teal;
     border-color: salmon;
+}
+
+.images {
+    float: none;
+    width: 100%;
+    border
+
 }
 
 .footer {
