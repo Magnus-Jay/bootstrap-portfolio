@@ -27,6 +27,14 @@ buttons {
     font-style: normal;
 }
 
+.navbar-brand {
+    font-weight: bolder;
+    background-color: salmon;
+}
+
+.row {
+    padding: 5px 10px 0 10px;
+}
 
 .textwrap {
     float: left;
