@@ -2,7 +2,7 @@ body {
     background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-light-sasi-01_1.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=80&usm=15&vib=3&w=1300&s=d605d7951d1238b05115a424fa804045");
 }
 
-#buttons {
+buttons {
     justify-content: flex-end;
 }
 
