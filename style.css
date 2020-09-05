@@ -31,6 +31,11 @@ buttons {
     justify-content: space-around;
 }
 
+.btn {
+    background-color: teal;
+    border-color: salmon;
+}
+
 .footer {
     position: fixed;
     left: 0;
