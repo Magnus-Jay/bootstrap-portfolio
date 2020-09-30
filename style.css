@@ -1,6 +1,6 @@
 body {
     background-image: url("images/starss.jpg");
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
 }
 
@@ -16,11 +16,11 @@ buttons {
  
     
     /* background-color: cornflowerblue; */
-    width: 600px;
+    /* width: 600px; */
     margin-top: 60px;
-    margin-left: 100px;
-    padding: 20px 20px 20px 20;
-    border-radius: 30px;
+    /* margin-left: 100px; */
+    /* padding: 20px 20px 20px 20; */
+    /* border-radius: 30px; */
    
 
 }
@@ -32,7 +32,7 @@ buttons {
 
 .navbar-brand {
     font-weight: bolder;
-    /* background-color: salmon; */
+    
 }
 
 .row {
@@ -41,14 +41,18 @@ buttons {
     background-color: cornflowerblue;
 }
 
-.col-md-12 {
-    /* background-color: cornflowerblue; */
-
-}
 
 #row-one {
     /* border-radius: 30px; */
     background-color: cornflowerblue;
+}
+
+#rowTwo {
+    max-width: 700px;
+}
+
+#rowThree {
+    max-width: 700px;
 }
 
 .textwrap {
@@ -63,7 +67,7 @@ margin: 10px;
 
 #heading {
     margin-top: 20px;
-    color: teal;
+    color: grey;
     /* justify-content: space-around; */
     font-family: 'Abril Fatface', cursive;
     /* background-color: cornflowerblue; */
@@ -76,7 +80,9 @@ margin: 10px;
 
 .images {
     float: none;
-    width: 100%;
+    max-width: 280px;
+    max-height: 280px;
+
 
 
 }
