@@ -1,5 +1,7 @@
 body {
-    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-light-sasi-01_1.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=80&usm=15&vib=3&w=1300&s=d605d7951d1238b05115a424fa804045");
+    background-image: url("images/starss.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 buttons {
@@ -13,11 +15,12 @@ buttons {
 .container {
  
     
-    background-color: white;
+    /* background-color: cornflowerblue; */
     width: 600px;
     margin-top: 60px;
     margin-left: 100px;
     padding: 20px 20px 20px 20;
+    border-radius: 30px;
    
 
 }
@@ -29,11 +32,23 @@ buttons {
 
 .navbar-brand {
     font-weight: bolder;
-    background-color: salmon;
+    /* background-color: salmon; */
 }
 
 .row {
     padding: 5px 10px 0 10px;
+    /* border-radius: 30px; */
+    background-color: cornflowerblue;
+}
+
+.col-md-12 {
+    /* background-color: cornflowerblue; */
+
+}
+
+#row-one {
+    /* border-radius: 30px; */
+    background-color: cornflowerblue;
 }
 
 .textwrap {
@@ -47,9 +62,11 @@ margin: 10px;
 }
 
 #heading {
+    margin-top: 20px;
     color: teal;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     font-family: 'Abril Fatface', cursive;
+    /* background-color: cornflowerblue; */
 }
 
 .btn {
@@ -60,7 +77,7 @@ margin: 10px;
 .images {
     float: none;
     width: 100%;
-    border
+
 
 }
 
@@ -69,8 +86,8 @@ margin: 10px;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: slategrey;
+    background-color: black;
     text-align: center;
     color: darkgray;
-    border-top: 8px solid teal;
+    border-top: 8px solid grey;
   }
