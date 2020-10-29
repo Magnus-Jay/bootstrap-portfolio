@@ -1,7 +1,21 @@
 body {
-    background-image: url("images/starss.jpg");
+    /* background-image: url("images/starss.jpg"); */
     /* background-repeat: no-repeat; */
+    background-color: grey;
+    background-blend-mode: overlay;
     background-size: cover;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#port {
+    padding-bottom: 20px;
+}
+
+#linked {
+   color: black; 
 }
 
 buttons {
@@ -25,6 +39,13 @@ buttons {
 
 }
 
+a {
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+text-shadow: black;
+}
+
 #navbarNav {
     justify-content: flex-end;
     font-style: normal;
@@ -38,13 +59,19 @@ buttons {
 .row {
     padding: 5px 10px 0 10px;
     /* border-radius: 30px; */
-    background-color: cornflowerblue;
+    background-color: gray;
+    border-radius: 30px;
 }
 
+.nav-link, .navbar-brand {
+    color: white;
+}
 
 #row-one {
     /* border-radius: 30px; */
-    background-color: cornflowerblue;
+    background-color: lightgray;
+    border-style: solid;
+    border-width: 5px;
 }
 
 #rowTwo {
@@ -74,17 +101,23 @@ margin: 10px;
 }
 
 .btn {
-    background-color: teal;
-    border-color: salmon;
+    background-color: black;
+    color: white;
+    
 }
 
 .images {
     float: none;
     max-width: 280px;
     max-height: 280px;
+    border-radius: 30px;
 
 
 
+}
+#family {
+margin-left: 80px;
+margin-top: 50px;
 }
 
 .footer {
@@ -96,4 +129,10 @@ margin: 10px;
     text-align: center;
     color: darkgray;
     border-top: 8px solid grey;
+  }
+  .contact-form {
+      font-weight: 500;
+      padding-left: 50px;
+      /* padding-top: 30px; */
+      border-left-style: solid;
   }
